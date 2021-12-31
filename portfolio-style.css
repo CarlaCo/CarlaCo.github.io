@@ -1,0 +1,457 @@
+<!-- MAIN -->
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: darkolivegreen;
+    opacity: 80%;
+    padding: 20px;
+}
+
+.main{
+    width: 100%;
+    background:url(4.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 109vh;
+}
+
+.icon{
+    width: 20%;
+    float:left;
+    height: 60px;
+    padding-left: 5%;
+   
+}
+
+.logo{
+    color: chocolate;
+    font-size: 36px;
+    font-family: courier new;
+    font-weight: bold;
+}
+
+.menu{
+    width: 70%;
+    float: end;
+    height: 50px;
+    padding:0% 5% 0% 30%;
+}
+
+ul{
+    float: top;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+ul li{
+    list-style:none;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    color: blanchedalmond;
+    font-family: monospace;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: chocolate;
+}
+
+.content{
+    font-size:40px;
+    padding: 10% 0% 10% 5%;
+    font-family: monospace;
+    letter-spacing: .8px;
+    line-height: 30 px;
+}
+
+.content .par{
+    font-size:18px;
+    padding-bottom:25px;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    line-height: 30 px;
+}
+
+.content .par a{
+    font-size:18px;
+    padding-bottom:25px;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    line-height: 30 px;
+    color:chocolate;
+    font-weight: bold;
+}
+
+.content h3{
+    font-family: inherit;
+    font-size: 50px;
+    letter-spacing: 2px;   
+}
+
+.form{
+    width: 100%;
+    height 75%;
+    background-color: darkolivegreen;
+    opacity: 80%;
+    top: 20%;
+    left: 55%;
+    padding: 10px;
+}
+
+.form h2{
+    width: 100%;
+    font-family: monospace;
+    text-align: left;
+    color: white;
+    font-size: 28px;
+    padding-left: 5%;
+}
+
+.form input{
+    width: 250px;
+    height: : 35px;
+    background: transparent;
+    border-bottom: 1px solid chocolate;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    
+}
+
+.form input:focus{
+    outline: none;    
+}
+
+::placeholder{
+    color: chocolate;
+    font-family:sans-serif;
+}
+
+.btnn{
+    width: 150px;
+    height: 48px;
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+    font-size:14px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.btnn:hover{
+    background: chocolate;
+    color:white;
+}
+
+.btnn a{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+}
+
+.icons a{
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    object-position: center;
+}
+
+.icons ion-icon{
+    color: white;
+    font-size: 30px;
+    padding: 1%;
+    
+}
+
+.icons ion-icon:hover{
+    color: chocolate;
+}
+
+.aboutme{
+    width: 100%;
+    background:url(5.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 109vh;
+}
+
+.aboutme .content .parr{
+    font-size: 18px;
+    padding: 0% 5% 0% 25%;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    line-height:  30px;
+    float: right;
+    text-align: right;
+    color: black;
+    
+}
+
+.aboutme h2{
+    font-size: 30px;
+    padding: 0% 5% 0% 25%;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    float: right;
+    text-align: right;
+    color: chocolate;
+    
+}
+
+.portfolio{
+    width: 100%;
+    height: auto;
+    padding: 10%;
+}
+
+.btnnn{
+    width: 80%;
+    height: 60px;
+    background-color: darkolivegreen;
+    opacity: 80%;
+    border: none;
+    margin-top: 20px;
+    font-size:18px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: center;
+    padding: 0% 10% 0% 10%;
+}
+
+.btnnn:hover{
+    color: chocolate;
+    background-color: blanchedalmond;
+}
+
+.btnnn a:hover{
+    color: chocolate;
+    background-color: blanchedalmond;
+}
+
+.btnnn a{
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 28px;
+    float: end;
+    padding: 1% 0% 1% 0%;
+}
+
+.holdingcontainer{
+    max-width: 100%;
+    display:flex;
+    background: white;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+
+.internalcontainerH{
+    flex: 3;
+    flex-basis: 100%;
+    background-image:url(wepikPHOTO.jpg);
+    background-size:contain;
+    padding: 30px;
+    font-size: 12px;
+    font-family: monospace;
+    margin: 10px;
+    order: 1;
+}
+
+.internalcontainerH h1{
+    font-family: monospace;
+    font-size: 42 px;
+    letter-spacing: 2px;
+    color: blanchedalmond;
+}
+
+.internalcontainerH a{
+    font-size:18px;
+    padding-bottom:25px;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    line-height: 30 px;
+    color: white;
+}
+
+.internalcontainerL{
+    flex: 1;
+    background-color: blanchedalmond;
+    padding: 30px;
+    font-size: 12px;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    margin: 10px;
+    order:2;
+        
+}
+
+.internalcontainerM{
+    flex: 1;
+    background-color: blanchedalmond;
+    padding: 30px;
+    font-size: 12px;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    margin: 10px;
+    order:3;
+}
+        
+.internalcontainerR{
+    flex: 1;
+    background-color: blanchedalmond;
+    padding: 30px;
+    font-size: 12px;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    margin: 10px;
+    order:3;
+}
+
+.dasimages{
+    min-width: 300px;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+@media screen and(max-width: 768px){
+    .holdingcontainer{
+    flex-direction: column;
+    }
+}
+
+.internalcontainerHV{
+    flex: 1;
+    flex-basis: 100%;
+    background-image:url(wepikVIDEO.jpg);
+    background-size: contain;
+    padding: 5%;
+    font-size: 12px;
+    font-family: monospace;
+    margin: 10px;
+    order: 1;
+}
+
+.internalcontainerHV h1{
+    font-family: monospace;
+    font-size: 42 px;
+    letter-spacing: 2px;
+    color: chocolate;
+    text-align: left;
+}
+
+.internalcontainerHV a{
+    font-size:18px;
+    padding-bottom:25px;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    line-height: 30 px;
+    color: black;
+    text-align: left;
+}
+.internalcontainerLV{
+    flex: 3;
+    background-color: blanchedalmond;
+    padding: 30px;
+    font-size: 12px;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    margin: 10px;
+    order:2;
+}
+
+
+.internalcontainerHAU{
+    flex: 1;
+    flex-basis: 100%;
+    background-image:url(wepikAUDIO.jpg);
+    background-size: cover;
+    padding: 5%;
+    font-size: 12px;
+    font-family: monospace;
+    margin: 10px;
+    order: 1;
+}
+
+.internalcontainerHAU h1{
+    font-family: monospace;
+    font-size: 42 px;
+    letter-spacing: 2px;
+    color: blanchedalmond;
+    text-align: left;
+}
+
+.internalcontainerHAU a{
+    font-size:18px;
+    padding-bottom:25px;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    line-height: 30 px;
+    color: white;
+    text-align: left;
+}
+
+.internalcontainerLAU{
+    flex: 3;
+    background-color: blanchedalmond;
+    padding: 30px;
+    font-size: 12px;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    margin: 10px;
+    order:2;
+}
+
+.auimages{
+    width: 80%;
+    align-content: center;
+    padding: 50% 10% 25% 10%;
+}
+
+.internalcontainerHAR{
+    flex: 1;
+    flex-basis: 100%;
+    background-image:url(wepikAR.jpg);
+    background-size: cover;
+    padding: 5%;
+    font-size: 12px;
+    font-family: monospace;
+    margin: 10px;
+    order: 1;
+}
+
+.internalcontainerHAR h1{
+    font-family: monospace;
+    font-size: 42 px;
+    letter-spacing: 2px;
+    color: blanchedalmond;
+    text-align: left;
+}
+
+.internalcontainerHAR a{
+    font-size:18px;
+    padding-bottom:25px;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    line-height: 30 px;
+    color: white ;
+    text-align: left;
+}
